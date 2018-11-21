@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Doctor extends Person {
 
-    private String specialization;
+    private String specialization = "";
     private ArrayList<Patient> patients;
 
     public Doctor(String name, int id, int phoneNumber, String specialization)

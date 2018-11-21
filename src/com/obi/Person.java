@@ -2,9 +2,9 @@ package com.obi;
 
 public abstract class Person {
 
-    private String name;
-    private int id;
-    private int phoneNumber;
+    private String name = "";
+    private int id = 0;
+    private int phoneNumber = 0;
 
     public Person(String name, int id, int phoneNumber) {
         this.name = name;
