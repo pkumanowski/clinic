@@ -10,6 +10,7 @@ public class Timetable {
     ArrayList<LocalDate> timetable;
     Doctor allDoctors;
     Patient allPatiens;
+    private int vititId;
 
     public Timetable(ArrayList<LocalDate> timetable)
     {
