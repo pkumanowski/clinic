@@ -9,6 +9,16 @@ public class Doctor extends Person {
         super(name, id, phoneNumber);
         this.specialization = specialization;
     }
+
+    public String getSpecialization() {
+        return specialization;
+    }
+
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
+
+    //znajdz termin
 }
 
 
