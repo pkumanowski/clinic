@@ -19,5 +19,9 @@ public class Patient extends Person {
     public LocalDate getVisitDate() {
         return visitDate;
     }
+
+    public void setVisitDate(LocalDate visitDate) {
+        this.visitDate = visitDate;
+    }
 }
 
